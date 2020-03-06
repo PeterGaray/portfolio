@@ -1,0 +1,21 @@
+body {font-family:Helvetica, Montserrat, Lato;
+    line-height: 1.6em;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.box{
+    border-left: 5px orange double;
+    margin: 1em 0;
+    padding: 20px
+}
+.box h1{
+    display: flex; 
+    font-size: 45px; 
+}
+
+p {
+
+}
