@@ -4,54 +4,67 @@
         <link href="css/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
-        <nav id="main navbar">
+        <nav id="navbar">
             <h2>SIYUAN WAN</h2>
-            <ul>
-                <li>Work</li>
-                <li>About</li>
+            <div id="navigation">
+                <p class="active">About<p>
+                <a href="#work">Work</a>
             </div>
         </nav>
         <div class="container">
-            <div class="box"> 
+            <div class="introbox"> 
                 <h1>Hi, I'm Siyuan</h1>
-                <p>a paragraph introducing myself</p> 
+                <p>A paragraph to introduce myself</p> 
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Tempora corporis corrupti facere quo amet blanditiis ad
                 cum minus at enim laborum, consectetur fugit, accusamus
                 odio hic praesentium Lorem ipsum dolor sit amet, consectetur
                 adipisicing elit. 
                 </p>
-            </div>             
-            <hr>     
-            <section class="">
-                <div>
-                    <img src="Images/My photo.JPG" alt="Picture of myself" width="500px">
-                    <br>
-                    <h1>Who am I and what am I doing</h1>
-                    <p>I consider myself a forever student. Eager to learn</p>
+            </div>                 
+            <section>
+                <div class="flexbox1">
+                    <div class="box"><img src="Images/My photo.JPG" alt="Picture of myself" class="cover"></div>
+                    <div class="box1">    
+                        <h1>Who am I and what am I doing</h1>
+                        <p>I consider myself a forever student. Eager to learn
+                        facere quo amet blanditiis adcum minus at enim laborum, consectetur fugit, accusamus
+                        odio hic praesentium Lorem ipsum dolor sit amet <br> Nemo enim ipsam voluptatem quia 
+                        voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos 
+                        qui ratione voluptatem sequi nesciunt.</p>
+                    </div>
                 </div>
-                <div>
-                    <img src="Images/UI Design.jpg" alt="UIUX Design" width="500px">
-                    <br>
-                    <h1>What am I looking for right now</h1>
-                    <p>I’m always interested in a challenge. Reach out to <a href="mailto:siyuanwan0503@gmail.com" 
-                    target="_blank">siyuanwan0503@gmail.com</a> to connect!</p>
-                    <button>Linkedin</button>
-                    <button>Resume</button>
-                    <button>Contact</button>
+                <div class="flexbox1">
+                    <div class="box1">
+                        <h1>What am I looking for right now</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Tempora corporis corrupti facere quo amet blanditiis ad
+                        cum minus at enim laborum. I’m always interested in a challenge. Reach out to <a href="mailto:siyuanwan0503@gmail.com" 
+                        target="_blank">siyuanwan0503@gmail.com</a> to connect!</p>
+                        <div class="flexbox2">
+                            <button>Linkedin</button>
+                            <button>Resume</button>
+                            <button>Contact</button>
+                        </div>  
+                    </div>
+                    <div class="box"><img src="Images/UX Design.jpg" alt="UIUX Design" class="cover"></div>
                 </div>
-                <div>
-                    <img src="Images/UX Design.jpg" alt="Placeholder pic" width="500px">
+                <div></div>
+                <div class="flexbox1">
+                    <div class="box"><img src="Images/UI Design.jpg" alt="Placeholder pic" class="cover"></div>
                     <br>
-                    <h1>What am I looking for right now</h1>
-                    <p>I’m always interested in a challenge.</p>
+                    <div class="box1">
+                        <h1>Some other title</h1>
+                        <p>I’m always interested in a challenge. A paragraph here.</p>
+                        <a class="button" href="#work">Back to my work</a>
+                    </div>
                 </div>
             </section> 
         </div>
 
     </body>
     <br>
-    <footer>
+    <footer id="footer">
         <p> &copy; 2020 Designed by Siyuan Wan</p>
     </footer>
     
